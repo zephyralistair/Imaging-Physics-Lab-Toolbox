@@ -1,7 +1,7 @@
 # Imaging Physics Lab Toolbox
 Toolbox for medical imaging data pre & post processing for the Meikle Imaging Physics Lab @ USYD
 
-Currently contains two tools in the Jupyter Notebook folder:
+The repository currently includes two tools in the Jupyter Notebooks folder:
 - Image derived input function extraction
     - Contains code for DICOM reading and preprocessing
     - Extracts input functions from either the aorta or left ventricle
@@ -13,4 +13,4 @@ Currently contains two tools in the Jupyter Notebook folder:
  
 Most modules used can be installed via pip. For MOOSE, use ```pip install moosez```. See https://moosez.readthedocs.io/en/latest/installation.html#installing-via-pip.
 
-I may or may not be adding more tools here depending on what I'll need during my PhD. If you wish to ask a question, report a bug or request a feature, open an issue or just email me.
+I may or may not be adding more tools here depending on what I'll need during my PhD. If you wish to ask a question, report a bug or request a feature, please open an issue or just email me. If you have ideas for improvements or new features, feel free to contribute.
