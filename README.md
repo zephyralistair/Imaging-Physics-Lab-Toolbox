@@ -12,4 +12,4 @@ Currently contains two tools in the Jupyter Notebook folder:
  
 Most modules used can be installed via pip. For MOOSE, use pip install moosez. See https://moosez.readthedocs.io/en/latest/installation.html#installing-via-pip.
 
-I may or may not be adding more tools here depending on what I'll need during my PhD. But also feel free to open a feature request / Q&A on Issues or just email me.
+I may or may not be adding more tools here depending on what I'll need during my PhD. If you wish to ask a question, report a bug or request a feature, open an issue or just email me.
