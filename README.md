@@ -1,5 +1,5 @@
 # Imaging Physics Lab Toolbox
-Toolbox for medical imaging data pre & post processing
+Toolbox for medical imaging data pre & post processing for the Meikle Imaging Physics Lab @ USYD
 
 Currently contains two tools in the Jupyter Notebook folder:
 - Image derived input function extraction
