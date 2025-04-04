@@ -2,7 +2,7 @@
 Toolbox for medical imaging data pre & post processing for the Meikle Imaging Physics Lab @ USYD
 
 The repository currently includes two tools in the Jupyter Notebooks folder:
-- Image derived input function extraction
+- Image derived input function automated extraction
     - Contains code for DICOM reading and preprocessing
     - Extracts input functions from either the aorta or left ventricle
     - Can be adapted for other segmentation tasks
