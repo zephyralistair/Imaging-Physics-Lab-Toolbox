@@ -12,7 +12,7 @@ The repository currently includes two tools in the Jupyter Notebooks folder:
     - Use the basis function method with (weighted) least squares
     - A non-negative least squares has also been included. Vectorisation for it is not possible.
  
-- A HYPR denoising implementation
+- A HYPR denoising implementation, see Christian, B. T., Vandehey, N. T., Floberg, J. M., & Mistretta, C. A. (2010). Dynamic PET Denoising with HYPR Processing. Journal of Nuclear Medicine, 51(7), 1147–1154. https://doi.org/10.2967/jnumed.109.073999
  
 Most modules used can be installed via pip. For MOOSE, use ```pip install moosez```. See https://moosez.readthedocs.io/en/latest/installation.html#installing-via-pip.
 
