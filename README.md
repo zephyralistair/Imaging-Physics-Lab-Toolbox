@@ -1,7 +1,7 @@
 # Imaging Physics Lab Toolbox
 Toolbox for medical imaging data pre & post processing for the Meikle Imaging Physics Lab @ USYD
 
-The repository currently includes two tools in the Jupyter Notebooks folder:
+The repository currently includes tools in the libs folder as well as some Demos in Jupyter Notebooks:
 - Image derived input function automated extraction
     - Contains code for DICOM reading and preprocessing
     - Extracts input functions from either the aorta or left ventricle
@@ -13,6 +13,8 @@ The repository currently includes two tools in the Jupyter Notebooks folder:
     - A non-negative least squares has also been included. Vectorisation for it is not possible.
  
 - A HYPR denoising implementation, see Christian, B. T., Vandehey, N. T., Floberg, J. M., & Mistretta, C. A. (2010). Dynamic PET Denoising with HYPR Processing. Journal of Nuclear Medicine, 51(7), 1147–1154. https://doi.org/10.2967/jnumed.109.073999
+
+- An interactive orthogonal viewer, for viewing 3D numpy arrays.
  
 Most modules used can be installed via pip. For MOOSE, use ```pip install moosez```. See https://moosez.readthedocs.io/en/latest/installation.html#installing-via-pip.
 
