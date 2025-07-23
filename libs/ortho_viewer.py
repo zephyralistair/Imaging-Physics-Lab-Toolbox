@@ -1,3 +1,6 @@
+## warning: if in a jupyter notebook, use `%matplotlib widget` before loading
+## this lib to enable interactivity
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Slider
