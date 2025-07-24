@@ -204,17 +204,16 @@ def nnls_stats(As: np.ndarray,
         raise ValueError("Dimension is wrong!")
         # return None, None, None, None
 
-def get_curve(Ct, Cr, t, thetas):
+def get_curve(Ct, Cr, t, dt, thetas):
 
     R1, k2, k2a, gamma, alpha, tD, tP = thetas
 
-    Ct_cumsum = np.cumsum(Ct)
-    Cr_cumsum = np.cumsum(Cr)
-    dt = t[1] - t[0]
+    Ct_cumsum = np.cumsum(Ct * dt)
+    Cr_cumsum = np.cumsum(Cr * dt)
 
     if np.isnan(gamma):
-        return R1 * Cr + k2 * Cr_cumsum * dt - k2a * Ct_cumsum * dt
+        return R1 * Cr + k2 * Cr_cumsum - k2a * Ct_cumsum
     else:
         ht = np.maximum(0, (t - tD) / (tP - tD)) ** alpha * np.exp(alpha * (1 - (t - tD) / (tP - tD))) * (t > tD)
-        Bts = np.cumsum(Ct * ht)
-        return R1 * Cr + k2 * Cr_cumsum * dt - k2a * Ct_cumsum * dt - gamma * Bts * dt
+        Bts = np.cumsum(Ct * ht * dt)
+        return R1 * Cr + k2 * Cr_cumsum - k2a * Ct_cumsum - gamma * Bts
